@@ -22,5 +22,5 @@ const uploadFile = async (req, res) => {
       res.status(500).json({ message: "Error uploading file", error });
     }
   };
-  
   module.exports = { upload, uploadFile };
+  
